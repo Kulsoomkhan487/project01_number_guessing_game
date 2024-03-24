@@ -1,7 +1,7 @@
 {
-  "name": "@kulsoomkhan/cli-number-guessing",
+  "name": "@kulsoomkhan/cli-number-guessing-game",
   "version": "1.0.2",
-  "description": "",
+  "description": "A CLI-Guessing Game with typescript,node.js and inquirer",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",

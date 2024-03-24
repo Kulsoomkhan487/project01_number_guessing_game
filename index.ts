@@ -1,4 +1,4 @@
-#! usr/bin/env node
+#! /usr/bin/env node
 
 
 
@@ -9,7 +9,7 @@ import chalkAnimation from "chalk-animation";
 // 3.Compare user input with computer generated number & show Result.
 
 async function Welcome() {
-  let rainbow = chalkAnimation.rainbow("Welcome to CLI Calculator");
+  let rainbow = chalkAnimation.rainbow("Welcome to CLI Number Guessing Game");
   await new Promise((resolve) => {
     setTimeout(resolve,1000);
   })

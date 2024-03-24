@@ -1,11 +1,11 @@
-#! usr/bin/env node
+#! /usr/bin/env node
 import inquirer from "inquirer";
 import chalkAnimation from "chalk-animation";
 // 1. Computer will generate a random number.
 // 2. user input for guessing number.
 // 3.Compare user input with computer generated number & show Result.
 async function Welcome() {
-    let rainbow = chalkAnimation.rainbow("Welcome to CLI Calculator");
+    let rainbow = chalkAnimation.rainbow("Welcome to CLI Number Guessing Game");
     await new Promise((resolve) => {
         setTimeout(resolve, 1000);
     });
